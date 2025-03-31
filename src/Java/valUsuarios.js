@@ -152,7 +152,7 @@ $(document).ready(function() {
     });
 
     $("#fechaNacimiento").on("change", function() {
-         if ($(this).val() === "") {
+            if ($(this).val() === "") {
             $("#fechaNacimiento-error").text("Este campo es obligatorio.").removeClass("hidden");
         } else {
             let fechaNacimiento = new Date($(this).val());
@@ -186,6 +186,4 @@ $(document).ready(function() {
             $("#rol-error").addClass("hidden");
         }
     });
-
-
 });
