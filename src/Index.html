@@ -19,7 +19,7 @@
         <div class="flex items-center space-x-2 md:hidden">
             <a href="/src/paginas/loginUser.html" class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-full inline-block">Iniciar sesión</a>
             <a href="/src/paginas/formUser.html" class="bg-green-500 hover:bg-green-700 text-white py-2 px-4 rounded-full inline-block">Crear cuenta</a>
-            <button class="text-gray-700 focus:outline-none" id="menu-toggle">
+            <button type="button" class="text-gray-700 focus:outline-none" id="menu-toggle" title="Toggle menu">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                 </svg>
@@ -60,11 +60,11 @@
             </div>
             <div class="p-2">
               <div class="text">
-                <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">About us</span>
+                <span class="text-gray-500 border-b-2 border-indigo-600 uppercase">Sobre nosotros</span>
                 <h2 class="my-4 font-bold text-3xl sm:text-4xl">
-                  About <span class="text-indigo-600">Our Company</span>
+                  Visita <span class="text-indigo-600">nuestras casas personalizadas</span>
                 </h2>
-                <p class="text-gray-700">
+                <p class="text-gray-700 dark:text-white">
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid,
                   commodi doloremque, fugiat illum magni minus nisi nulla numquam
                   obcaecati placeat quia, repellat tempore voluptatum.
@@ -73,12 +73,12 @@
             </div>
           </div>
         </section>
-      
+
         <section class="sombra-uniforme bg-white dark:bg-gray-700 mx-6 rounded-2xl">
           <div class="p-5">
               <div class="text-center dark:text-white text-3xl mt-8 mb-8">
                   <a href="">
-                      <h2>Productos disponibles</h2>
+                      <h2>Productos mas vendidos</h2>
                   </a>
               </div>
               <div id="card-container" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 w-full"></div>
@@ -88,14 +88,14 @@
         <div class="max-w-screen-xl rounded-2xl mx-6">
             <div class="">
                 <div class="dark:text-white text-3xl font-medium text-center mt-8 mb-8">
-                    <h2>Productos más vendidos</h2>
+                    <h2>Productos más solicitados</h2>
                 </div>
-                <div class="dark:text-white text-center mt-7 mb-8">
+                <div class="dark:text-white text-center">
                     <h4>Revisa nuestros productos más solicitados, con la mejor calidad y servicio</h4>
                 </div>
             </div>
             <div class="mt-12 mb-8">
-                <div id="product-grid" class="  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                     </div>
             </div>
         </div>
