@@ -1,23 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Iniciar sesion</title>
     <link rel="stylesheet" href="/src/css/output.css">
     <link rel="stylesheet" href="/src/css/somUniforme.css">
 </head>
 <body class="bg-gray-200 dark:bg-gray-400">
     <div class="container-navbar fixed top-2 left-6 right-6 z-50">
         <nav class="bg-white dark:bg-gray-800 rounded-2xl shadow-lg p-2 flex items-center justify-between">
-            <a href="#" class="flex items-center">
+            <a href="/src/Index.html" class="flex items-center">
                 <img src="/src/img/pngegg (1).png" alt="Logo empresa" class="max-w-14 max-h-14 mr-2">
             </a>
     
             <div class="flex items-center space-x-2 md:hidden">
                 <a href="/src/paginas/loginUser.html" class=" text-white py-2 px-4 rounded-full inline-block"></a>
                 <a href="#" class=" text-white py-2 px-4 rounded-full inline-block"></a>
-                <button class="text-gray-700 focus:outline-none" id="menu-toggle">
+                <button type="button" class="text-gray-700 focus:outline-none" id="menu-toggle" title="Toggle menu">
                     <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
@@ -25,7 +25,7 @@
             </div>
     
             <ul class="hidden md:flex space-x-6 ">
-                <li><a href="#" class="text-gray-700 dark:text-white hover:text-blue-500">Inicio</a></li>
+                <li><a href="/src/Index.html" class="text-gray-700 dark:text-white hover:text-blue-500">Inicio</a></li>
                 <li><a href="#" class="text-gray-700 dark:text-white hover:text-blue-500">Servicios</a></li>
                 <li><a href="#" class="text-gray-700 dark:text-white hover:text-blue-500">Acerca de</a></li>
                 <li><a href="#" class="text-gray-700 dark:text-white hover:text-blue-500">Contacto</a></li>
@@ -57,11 +57,11 @@
                                     <form action="#" method="POST">
                                         <div class="mb-4">
                                             <label for="username" class="block text-gray-700 dark:text-white text-sm font-bold mb-2">Usuario</label>
-                                            <input type="text" id="username" name="username" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Usuario">
+                                            <input type="text" id="username" name="username" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-white leading-tight focus:outline-none focus:shadow-outline" placeholder="Usuario">
                                         </div>
                                         <div class="mb-6">
                                             <label for="password" class="block text-gray-700 dark:text-white text-sm font-bold mb-2">Contraseña</label>
-                                            <input type="password" id="password" name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" placeholder="Contraseña">
+                                            <input type="password" id="password" name="password" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 dark:text-white leading-tight focus:outline-none focus:shadow-outline" placeholder="Contraseña">
                                         </div>
                                         <div class="flex items-center justify-between">
                                             <button type="button" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">Iniciar Sesión</button>
