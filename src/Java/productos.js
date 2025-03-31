@@ -15,12 +15,12 @@ function addCard(titulo, precio, imageUrl) {
                 </div>
             </div>
             <div class="relative block h-full">
-                <div class="h-32 bg-gray-100 dark:bg-gray-700 rounded-lg" style="background-image: url('${imageUrl}'); background-size: cover;"></div>
+                <div class="h-45 bg-gray-100 dark:bg-gray-700 rounded-lg" style="background-image: url('${imageUrl}'); background-size: cover;"></div>
             </div>
         </div>
         <h2 class="mt-2 text-gray-800 dark:text-white text-sm font-semibold line-clamp-1">${titulo}</h2>
         <p class="mt-2 text-gray-800 dark:text-white text-sm">${precio}</p>
-        <button class="mt-4 px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium rounded-md w-full">Order</button>
+        <button class="mt-4 px-4 py-2 bg-indigo-500 hover:bg-indigo-600 text-white text-sm font-medium rounded-md w-full">Cotizar</button>
     `;
 
     cardContainer.appendChild(card);
@@ -28,8 +28,8 @@ function addCard(titulo, precio, imageUrl) {
 
 // aqui se añaden tarjetas de los productos, mas facil y automatizado, en vez de todo el
 //rato copiar y pegar el codigo en html, se hace desde aqui.
-addCard('Super Value Pizza', '$12.99', 'ruta/a/la/imagen1.jpg');
-addCard('Deluxe Burger', '$8.99', 'ruta/a/la/imagen2.jpg');
-addCard('Chicken Salad', '$7.99', 'ruta/a/la/imagen3.jpg');
-addCard('Veggie Wrap', '$6.99', 'ruta/a/la/imagen4.jpg');
-addCard('Fruit Smoothie', '$4.99', 'ruta/a/la/imagen5.jpg');
+addCard('Super Value Pizza', '$5M-10M', '/src/img/log1.jpg');
+addCard('Deluxe Burger', '$3M-7M', '/src/img/log2.jpg');
+addCard('Chicken Salad', '$6M-13M', '/src/img/log3.webp');
+addCard('Veggie Wrap', '$15M-26M', '/src/img/log4.jpg');
+addCard('Fruit Smoothie', '$22M-37M', '/src/img/log5.jpg');
